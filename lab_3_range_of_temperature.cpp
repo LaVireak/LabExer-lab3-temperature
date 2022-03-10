@@ -10,19 +10,19 @@ int main()  //the main function
     {  // To open the if function block
         cout << " you are out of range "; // To print out the message for the user
     } // To close the if function block
-    if ( temperature > 41 and temperature < 54) // Declare the condition for temparature above 41 and below 54
+    if ( temperature >= 41 and temperature <= 54) // Declare the condition for temparature above 41 and below 54
     {  // To open the if function block
         cout << " Stay hydrated "; // To print out the message for the user
     } // To close the if function block
-    else if ( temperature > 32 and temperature < 40 ) // Declare the condition for temparature above 32 and below 40
+    else if ( temperature >= 32 and temperature <= 40 ) // Declare the condition for temparature above 32 and below 40
     {  // To open the else if function block
         cout << "Stay cool and safe "; // To print out the message for the user 
     } // To close the else if function block
-    else if ( temperature > 26 and temperature < 31 ) // Declare the condition for temparature above 26 and below 31
+    else if ( temperature >= 26 and temperature <= 31 ) // Declare the condition for temparature above 26 and below 31
     {  // To open the else if function block
         cout << " Keep a sunblock handy "; // To print out the message for the user 
     } // To close the else if function block
-    else if ( temperature > 20 and temperature < 25 ) // Declare the condition for temparature above 20 and below 25
+    else if ( temperature >= 20 and temperature <= 25 ) // Declare the condition for temparature above 20 and below 25
     {   // To open the else if function block
         cout <<  " Always keep your cool! "; // To print out the message for the user
     } // To close the else if function block
